@@ -56,7 +56,7 @@ module "blog_sg" {
   egress_cidr_blocks = ["0.0.0.0/0"]
 }
 
-module "blog _alb" {
+module "blog_alb" {
   source = "terraform-aws-modules/alb/aws"
 
   name    = "blog-alb"
